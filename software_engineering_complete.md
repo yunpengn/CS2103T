@@ -127,6 +127,7 @@ UML class diagrams describe the structure (but not the behavior) of an OOP solut
 	- However, you can _omit_ these visibility symbols.
 
 The diagram below shows the two basic rules above:
+
 ![Use case diagram for a blog system](img/ClassDiagramBasicVisibility.png)
 
 ### Object diagram 
@@ -144,4 +145,5 @@ The diagram below shows the two basic rules above:
 - Use the notation for inheritance in class diagram to show **actor generalization**.
 
 The diagram below shows how to draw a use case diagram:
+
 ![Use case diagram for a blog system](img/UseCaseDiagramBlogSystem.png)
