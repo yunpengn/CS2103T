@@ -69,6 +69,12 @@ Design is the creative process of transforming the problem into a solution; the 
 
 In a large software engineering project, design should be done at multiple levels. This can be done in a top-down manner, bottom-up manner or a mix.
 
+Apart from an overall design, sometimes agile design is also important but it is different in the following ways: agile designs are emergent, they’re not defined up front. Although you will often do some initial architectural modeling at the very beginning of a project, this will be just enough to get your team going.
+
+### Design principles
+
+
+
 ## UML diagram
 
 UML stands for unified modelling language.
