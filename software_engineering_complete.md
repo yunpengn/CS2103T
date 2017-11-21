@@ -81,7 +81,16 @@ Apart from an overall design, sometimes **agile design** is also important but i
 	- High-level modules should not depend on low-level modules. Both should depend on abstractions;
 	- Abstractions should not depend on details. Details should depend on abstractions.
 
-### OOP
+### Object-oriented programming
+
+- A programming paradigm guides programmers to analyze programming problems and structure programming solutions in a specific way. A few popular paradigm includes procedural programming (C), functional programming (JavaScript and Haskel) and object-oriented programming (Java);
+- OOP views the world as a network of interacting objects. OOP solutions try to simulate such a network inside the computer's memory, although no need to follow the real world exactly;
+- Object ultimately achieves three goals:
+	- Encapsulation: to encapsulate both state (data) and behaviour (operations on data);
+	- Abstraction: to abstract away the lower level details and work with bigger granularity entities;
+	- Information hiding: state and behaviour only accessible via the interface;
+	- Message passing: to interact with each other by sending messages.
+- A class contains instructions for creating a specific kind of objects.
 
 ## UML diagram
 
