@@ -84,4 +84,4 @@ UML stands for unified modelling language.
 
 The diagram below shows how to draw a use case diagram:
 
-!(Use case diagram for a blog system)[img/UseCaseDiagramBlogSystem.png]
+!(Use case diagram for a blog system)[/img/UseCaseDiagramBlogSystem.png]
