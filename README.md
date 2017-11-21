@@ -34,7 +34,7 @@ This module introduces the necessary conceptual and analytical tools for systema
 - [Project Website](https://cs2103aug2017-t09-b3.github.io/main/)
 
 ### Materials summary
-- [Software Engineering Complete](Software Engineering Complete.md)
+- [Software Engineering Complete](software_engineering_complete.md)
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
