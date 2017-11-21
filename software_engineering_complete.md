@@ -107,13 +107,27 @@ Apart from an overall design, sometimes **agile design** is also important but i
 #### Class inheritance
 
 
+
 ## UML diagram
 
-UML stands for unified modelling language.
+UML stands for unified modelling language. It is a general-purpose, developmental, modeling language in the field of software engineering, that is intended to provide a standard way to visualize the design of a system.
+
+UML was originally motivated by the desire to standardize the disparate notational systems and approaches to software design developed by Grady Booch, Ivar Jacobson and James Rumbaugh at Rational Software in 1994-1995, with further development led by them through 1996.
 
 ### Architecture diagram
 
 ### Class diagram
+
+UML class diagrams describe the structure (but not the behavior) of an OOP solution. It is probably the most commonly used UML diagram among OOP programmers.
+
+- Use a rectangle to represent a class, which will be divided into three parts vertically, used to write class name, attributes and methods, respectively;
+	- However, you can _omit_ the 2<sup>nd</sup> compartment for attributes and the 3<sup>rd</sup> compartment for methods.
+- Use visibility symbol before attributes and methods to indicate the level of access;
+	- `+` stands for `public`, `-` stands for `private`, `#` stands for `protected`, `~` stands for `package private` (default);
+	- However, you can _omit_ these visibility symbols.
+
+The diagram below shows the two basic rules above:
+![Use case diagram for a blog system](img/ClassDiagramBasicVisibility.png)
 
 ### Object diagram 
 
@@ -130,5 +144,4 @@ UML stands for unified modelling language.
 - Use the notation for inheritance in class diagram to show **actor generalization**.
 
 The diagram below shows how to draw a use case diagram:
-
 ![Use case diagram for a blog system](img/UseCaseDiagramBlogSystem.png)
