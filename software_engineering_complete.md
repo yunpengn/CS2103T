@@ -91,6 +91,9 @@ Apart from an overall design, sometimes **agile design** is also important but i
 	- Information hiding: state and behaviour only accessible via the interface;
 	- Message passing: to interact with each other by sending messages.
 - A class contains instructions for creating a specific kind of objects.
+	- Class level members: variables or methods that are shared by all instances of a class, which are accessed via class name;
+	- Enumeration: a fixed set of values that can be considered as a data type.
+- Association: connections between objects or classes, may change over time.
 
 ## UML diagram
 
