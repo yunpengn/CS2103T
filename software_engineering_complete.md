@@ -90,10 +90,16 @@ Apart from an overall design, sometimes **agile design** is also important but i
 	- Abstraction: to abstract away the lower level details and work with bigger granularity entities;
 	- Information hiding: state and behaviour only accessible via the interface;
 	- Message passing: to interact with each other by sending messages.
-- A class contains instructions for creating a specific kind of objects.
+- A class contains instructions for creating a specific kind of objects;
 	- Class level members: variables or methods that are shared by all instances of a class, which are accessed via class name;
 	- Enumeration: a fixed set of values that can be considered as a data type.
-- Association: connections between objects or classes, may change over time.
+- Association: connections between objects or classes, may change over time;
+	- Navigability: to decide which party knows the other class, usually identical to in which class the associated field is defined;
+	- Multiplicity: to decide for each party how many objects take part in the association;
+	- Association class: a normal class but plays the role of association in the network.
+- Dependency: a weaker form of association, not directly linked in the network but still can interact with each other;
+- Composition: to represent a strong **_whole-part_** relationship. When the _whole_ is destroyed, _parts_ are destroyed too;
+- Aggregation: a weaker form of composition, to represent a **_container-contained_** relationship.
 
 ## UML diagram
 
