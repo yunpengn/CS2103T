@@ -122,13 +122,25 @@ UML class diagrams describe the structure (but not the behavior) of an OOP solut
 
 - Use a rectangle to represent a class, which will be divided into three parts vertically, used to write class name, attributes and methods, respectively;
 	- However, you can _omit_ the 2<sup>nd</sup> compartment for attributes and the 3<sup>rd</sup> compartment for methods.
-- Use visibility symbol before attributes and methods to indicate the level of access;
+- Use visibility symbol before attributes and methods to indicate the level of access.
 	- `+` stands for `public`, `-` stands for `private`, `#` stands for `protected`, `~` stands for `package private` (default);
 	- However, you can _omit_ these visibility symbols.
 
 The diagram below shows the two basic rules above:
 
 ![Use case diagram for a blog system](img/ClassDiagramBasicVisibility.png)
+
+- Use a solid line for **association** between two classes;
+- Use the arrow head to indication the navigability of an association;
+	- _Notice_: Navigability can be shown in class diagrams as well as object diagrams.
+- Use association roles at both ends of the solid line to indicate the role played by both parties in the association;
+- Use association label at the middle of the sold line to describe the meaning of the association;
+- Use numbers to indicate at both ends of the sold line to indicate the multiplicity of both parties in the association;
+	- `0..1` stands for `optional`, `1` stands for `compulsory`, `*` stands for `infinite`, `m..n` stands for the range `[m, n]` (both inclusive).
+
+The diagram below shows how to draw association in a class diagram:
+
+![Use case diagram for a blog system](img/ClassDiagramAssociation.png)
 
 ### Object diagram 
 
