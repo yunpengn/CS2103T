@@ -241,8 +241,22 @@ The sequence diagram below illustrates these basic rules:
 ![Sequence diagram for minefield](img/SequenceDiagramBasic.png) &nbsp; &nbsp; &nbsp;
 ![Sequence diagram reference](img/SequenceDiagramReference.png)
 
-
 ### Activity diagram
+
+- A UML Activity diagram (AD) can model workflows.
+- Use a rectangle with rounded edges to represent a single step in an activity.
+- Use an arrow to connect two steps (two rectangles) to show the control flow.
+- Use a hollow diamond symbol as branch/merge node to represent alternative paths.
+	- Only one of the alternative paths can be taken at any time.
+- Use a bar as folk/join to represent parallel paths (concurrent workflow)
+	- All parallel paths should be complete before the execution can start on the outgoing control flow of the join.
+- Use a rake symbol to represent the part that will be shown in a separate activity diagram.
+- Use vertical dashed line as _swimline_ to partition an activity diagram to show who is doing what.
+
+The activity diagram below illustrates these rules:
+
+![Activity diagram for minefield](img/ActivitycDiagram.png) &nbsp; &nbsp; &nbsp;
+![Activity diagram reference](img/ActivitycDiagramReference.png)
 
 ### Use case diagram
 
