@@ -203,7 +203,47 @@ Given below are some common refactoring:
 
 ### Documentation
 
-- 
+- There are two types of developer-to-developer documentation, developer-as-user (API documentation) or developer-as-maintainer.
+- Documentation should be written in a top-down breadth-first approach.
+- Documentation should aim for not only comprehensiveness, but also **comprehensibility**.
+	- Use plenty of diagrams and examples to make sure readers can understand what you write down.
+- Document minimally but sufficiently.
+	- Anything that is already clear in the code need not be described in words.
+
+### Error handling
+
+- Exception: used to deal with "_unusual_" but not entirely unexpected situations that the program might encounter at runtime.
+	- Exception objects can propagate up the method call hierarchy until it is dealt with.
+	- Use `try-catch` block to seperate normal workflow and error handling workflow.
+- Assertion: used to define assumptions about the program state so that the runtime can verify them.
+	- An assertion failure usually indicates a potnetial bug in the code.
+	- Java disables assertion by default, you can use `java -enableassertions <ClassName>` to enable it.
+- Logging: the deliberate recording of certain information during a program execution for future reference, which would be useful for troubleshooting.
+	- A log file is like the black box of an airplane; they don't prevent problems but they can be helpful in understanding what went wrong after the fact.
+- Defensive programming: if we leave room for things to go wrong, they will go wrong. Given below are some common defensive programming practices:
+	- Enforcing compulsory associations (check for `requireNotNull`);
+	- Enforcing 1-to-1 associations;
+	- Enforcing referential integrity (similar to the concept of foreign key constraint);
+
+### Integration
+
+- Integration is the process of combining parts of a software product to form a whole.
+	- Integration is usually the most troublesome task.
+- _Early and frequent_ is better: integrate early and evolve each part in parallel, in small steps, re-integrating frequently.
+- _Incremental integration_ is better: integrate few components at a time.
+- _Top-down integration_, _bottom-up integration_ and _sandwich integration_ are all necessary.
+
+### Build automation
+
+- Build automation tools automate the steps of the build process, usually by means of build scripts.
+- Some popular Java build tools: gradle, maven, ant, make.
+- Some build tools also serve as dependency management tool, like gradle and maven.
+
+### CI/CD
+
+- Continuous integration (CI): integration, building, and testing all happens automatically after each code change.
+- Continuous deployment (CD): the changes are not only integrated continuously, but also deployed to end-users at the same time.
+- Some popular CI/CD tools: Travis CI, Circle CI, AppVeyor, Jenkins.
 
 ## UML diagram
 
