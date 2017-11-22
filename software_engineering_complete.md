@@ -132,6 +132,22 @@ Apart from an overall design, sometimes **agile design** is also important but i
 - Substitutability: every instance of a subclass must also be an instance of its super class (or interface), but not vice-versa.
 - **Polymorphism**: polymorphism is achieved thanks to **_substitutability_**, **_method overriding_**, and **_dynamic binding_**.
 
+### Design pattern
+
+- **Design pattern**: an elegant reusable solution to a commonly recurring problem within a given context in software design.
+- Singleton: some certain classes should have no more than just one instance.
+- Abstraction occurence: if a group of entities appears to share some common information, use an `<<abstraction>>` class to hold all common information, use an `<<occurrence>>` or `<<copy>>` class to hold individual information.
+- Facade: if external classes need to access information deep inside one component, include a **Facade** class to settle all these interactions.
+- Command: use a generic `<<Command>>` class (can be abstract class or interface) to pass around and accomplish different tasks.
+- Model-view-controller (MVC): the ultimate goal of an application is to present data to users in an elegant way, MVC helps programmers to achieve that.
+- Observer: to make sure the observer get notified when the observed object gets changed.
+
+![MVC diagram](img/MvcDiagram.png)
+
+## Implementation
+
+
+
 ## UML diagram
 
 UML stands for unified modelling language. It is a general-purpose, developmental, modeling language in the field of software engineering, that is intended to provide a standard way to visualize the design of a system.
@@ -139,6 +155,13 @@ UML stands for unified modelling language. It is a general-purpose, developmenta
 UML was originally motivated by the desire to standardize the disparate notational systems and approaches to software design developed by Grady Booch, Ivar Jacobson and James Rumbaugh at Rational Software in 1994-1995, with further development led by them through 1996.
 
 ### Architecture diagram
+
+- Software architecture shows the overall organization of the system and can be viewed as a very high-level design.
+- There are various architectural styles, like N-tier style, client-server style, transaction processing style, service-oriented style, event-driven style, P2P style, message-oriented style.
+
+The diagram below shows the architecture diagram of [TEAMMATES](http://teammatesv4.appspot.com/):
+
+![Architecture diagram](img/ArchitectureDiagram.png)
 
 ### Class diagram
 
