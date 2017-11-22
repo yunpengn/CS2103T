@@ -168,6 +168,10 @@ The diagram below shows how to draw an association class in the class diagram:
 
 ![Class diagram for staff](img/ClassDiagramInterface.png)
 
+- Abstract class: use `{abstract}` to indicate a class is an abstract class.
+
+![Class diagram for abstract staff](img/ClassDiagramAbstractStaff.png)
+
 - Enumeration: can be considered as a special kind of classes and should be explicitly labelled with `<<enumeration>>`.
 
 ![Class diagram for die and player](img/ClassDiagramEnumeration.png)
