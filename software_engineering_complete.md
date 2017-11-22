@@ -223,6 +223,18 @@ Below is a simple example of the object diagram:
 
 ### Sequence diagram
 
+- A UML sequence diagram captures the interactions between multiple objects for a given scenario.
+- Use a vertical dashed line as _life line_ to indicate the period of which the instance is alive.
+	- The left most life line is reserved for the entities or the actor, usually the driver class or the `main` class.
+	- Use a `x` at the end of the life line to indicate object deletion.
+- Use a rectangle at the top of each life line to indicate each instance.
+	- `objectName:ClassName` is not underlined in sequence diagram.
+- Use small rectangle on life line as _activation bar_ to indicate the period of a method execution.
+	- The vertically first activation bar may be the constructor method, which is connected to the top rectangle used to represent the instance.
+- Use solid arrow to represent method call, while use dashed arrow to represent return value.
+	- Dashed arrow may be omitted (sometimes there may be no return value at all).
+	- Constructor method call should point to the top rectangle used to represent the instance.
+
 ### Activity diagram
 
 ### Use case diagram
