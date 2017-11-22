@@ -202,7 +202,13 @@ The diagram below shows how to draw an association class in the class diagram:
 
 ### Conceptual class diagram
 
+- Class diagrams that are used to model the problem domain are called conceptual class diagrams or OO domain models (OODMs).
+- OODMs do not contain solution-specific classes.
+- OODM notation is similar to class diagram notation but typically omit methods and navigability.
 
+Below is an example of conceptual class diagram for snake-and-ladder game:
+
+![OODM for snake-and-ladder game](img/ConceptualClassDiagram.png)
 
 ### Object diagram 
 
@@ -215,7 +221,7 @@ The diagram below shows how to draw an association class in the class diagram:
 - Use a dashed line with `<<extend>>` to show **extension**;
 	- Note the direction of the dashed line is from the extension to the use case it extends.
 - Use a dotted arrow with `<<include>>` to show **inclusion**;
-	- Note how the arrow direction is different from the << extend >> arrows.
+	- Note how the arrow direction is different from the `<<extend>>` arrows.
 - Use the notation for inheritance in class diagram to show **actor generalization**.
 
 The diagram below shows how to draw a use case diagram:
@@ -224,8 +230,24 @@ The diagram below shows how to draw a use case diagram:
 
 ### Deployment diagram
 
+A deployment diagram shows a system's physical layout, revealing which pieces of software run on which pieces of hardware.
+
+![Deployment diagram](img/DeploymentDiagram.png)
+
 ### Component diagram
+
+A component diagram is used to show how a system is divided into components and how they are connected to each other through interfaces.
+
+![Component diagram](img/ComponentDiagram.png)
 
 ### Package diagram
 
+A package diagram shows packages and their dependencies
+
+![Package diagram](img/PackageDiagram.png)
+
 ### Composite structure diagram
+
+A composite structure diagram hierarchically decomposes a class into its internal structure.
+
+![Composite structure diagram](img/CompositeStructureDiagram.png)
