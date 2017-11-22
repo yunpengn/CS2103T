@@ -146,7 +146,51 @@ Apart from an overall design, sometimes **agile design** is also important but i
 
 ## Implementation
 
+- Integrated development environments (IDE): a source code editor, compiler/interpreter, debugger, etc.
+- Debugging: the process of discovering defects in the program, can either
+	- By inserting temporary print statements;
+	- By manually tracing through the code;
+	- Using a debugger (**recommended**).
 
+### Code quality
+
+- To maximize understandability.
+	- Always use curly braces to show grouping;
+	- Use enumeration when the value of a variable can only take a fixed set of values;
+	- Structure code logically and put statements/methods in the suitable order;
+	- Never write _clever_ code, keep it simple and stupid (**KISS**);
+	- Adapt _single level of abstraction per method (**SLAP**);
+	- Avoid long method;
+	- Avoid deep nesting (in `if-else` statement or loop);
+	- Avoid complicated expression (lengthy boolean expression);
+	- Avoid magic number (use a named constant instead);
+	- Avoid implicit type conversion/casting;
+	- Avoid premature optimization.
+- To follow a strict coding standard (_aka style guide_), to make the entire codebase looks like it was written by one person.
+- To adopt a good naming convention.
+	- Use nouns for class/object/attribute names and verbs for methods;
+	- Distinguish clearly between singular and plural form;
+	- Use standard English word.
+	- Related things should be named similarly, while unrelated things should NOT.
+- To avoid unsafe shortcut.
+	- Always include a default branch in the `case` statement;
+	- Always include the last `else` clause in the `if-else if` statement;
+	- Use one variable for one purpose. Do NOT re-use or recycle them;
+	- Avoid empty or duplicate `catch` block;
+	- Get rid of unused or unreachable code;
+	- Define variables in the least possible scope.
+- Comment minimally but sufficiently
+	- No need to write comments if the code is self-explanatory;
+	- Explain what and why aspect of the code, rather than the how aspect;
+	- Starts the sentence with a verb in singular form.
+
+### Refactoring
+
+Refactoring is a process that improves a program's internal structure in small steps without modifying its external behavior. It is different from code rewriting or debugging. It may reveal hidden bugs and improve performance, sometimes.
+
+Given below are some common refactoring:
+
+- 
 
 ## UML diagram
 
