@@ -255,8 +255,8 @@ The sequence diagram below illustrates these basic rules:
 
 The activity diagram below illustrates these rules:
 
-![Activity diagram for minefield](img/ActivitycDiagram.png) &nbsp; &nbsp; &nbsp;
-![Activity diagram reference](img/ActivitycDiagramReference.png)
+![Activity diagram for minefield](img/ActivityDiagram.png) &nbsp; &nbsp; &nbsp;
+![Activity diagram reference](img/ActivityDiagramReference.png)
 
 ### Use case diagram
 
