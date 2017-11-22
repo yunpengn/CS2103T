@@ -236,6 +236,12 @@ Below is a simple example of the object diagram:
 	- Constructor method call should point to the top rectangle used to represent the instance.
 - Use a large rectangle with `alt`, `opt`, `par` or `ref` to represent alternative path, optional path, parallel path or reference frame.
 
+The sequence diagram below illustrates these basic rules:
+
+![Sequence diagram for minefield](img/SequenceDiagramBasic.png) &nbsp; &nbsp; &nbsp;
+![Sequence diagram reference](img/SequenceDiagramReference.png)
+
+
 ### Activity diagram
 
 ### Use case diagram
