@@ -53,7 +53,7 @@ There are two types of software requirements:
 - Feature list: a list of features of a product grouped according to some criteria such as aspect, priority;
 - User story: a short, simple description of a feature (_both functional and NFRs_) told from the user's perspective, in the format of `As a {user type/role} I can {function} so that {benefit}`, where high-level user stories are called **epics**;
 - Use case: to describe an interaction between the user (called "_actor_") and the system for a specific functionality of the system, which consists of a sequence of actions.
-	- A use case describes only the externally visible behavior, not internal details, of a system;
+	- A use case describes only the externally visible behaviour, not internal details, of a system;
 	- A use case can have main success scenario (MSS) and extensions;
 	- A use case can include another use case or use another use case as extension.
 
@@ -64,8 +64,8 @@ A glossary serves to ensure that all stakeholders have a common understanding of
 ## Design
 
 Design is the creative process of transforming the problem into a solution; the solution is also called design. There are two types of design in software engineering:
-- Product/external design: designing the external behavior of the product to meet the users' requirements;
-- Implementation/internal design: designing how the product will be implemented to meet the required external behavior.
+- Product/external design: designing the external behaviour of the product to meet the users' requirements;
+- Implementation/internal design: designing how the product will be implemented to meet the required external behaviour.
 
 In a large software engineering project, design should be done at multiple levels. This can be done in a top-down manner, bottom-up manner or a mix.
 
@@ -106,7 +106,31 @@ Apart from an overall design, sometimes **agile design** is also important but i
 
 #### Class inheritance
 
-
+- Inheritance allows you to define a new class based on an existing class. A super class should be more general than the subclass. The subclass can be considered as a sub-type of the super class, resulting in a `is a` relationship.
+- Multiple inheritance allows one class to inherit directly from multiple classes. Java forbids this while C++ allows this.
+- **Overriding**: change the behaviour of the superclass method by re-implementing it.
+	- Method overriding cannot change the type signature, return type or the thrown exception.
+	- The level of access can be changed, but cannot be lower than the access modifier in superclass method.
+	- `final` methods cannot be overriden.
+	- Constructor cannot be overriden.
+	- `static` methods cannot be overriden, but can be re-declared.
+- **Overloading**: there are multiple methods with the same name but different type signature.
+	- Type signature: including the number, order and type of the formal parameters.
+	- Return type is not part of the type signature.
+- An interface is a collection of behaviour specification, resulting in a `is a` relationship. A class implements an interface to support all its behaviour.
+	- Interface does not have constructor and thus cannot be instantiated.
+	- All methods in an interface is implicitly `public abstract` (unless it is a `public default` method).
+	- All attributes in an interface is implicitly `public static final`.
+	- An interface can inherit from multiple interfaces.
+- An abstract class is a class declared as `abstract`, which may or may not contain abstract methods.
+	- Abstract class cannot be directly instantiated.
+	- Constructor and `static` method cannot be declared as `abstract`.
+	- Abstract class can be inherited from, but their subclasses must implement all abstract methods (unless they are also abstract).
+- Static binding happens at the compile time, while dynamic binding happens at the runtime.
+	- Method overriding is resolved at the runtime.
+	- Method overloading is resolved at the compile time.
+- Substitutability: every instance of a subclass must also be an instance of its super class (or interface), but not vice-versa.
+- **Polymorphism**: polymorphism is achieved thanks to **_substitutability_**, **_method overriding_**, and **_dynamic binding_**.
 
 ## UML diagram
 
@@ -118,7 +142,7 @@ UML was originally motivated by the desire to standardize the disparate notation
 
 ### Class diagram
 
-UML class diagrams describe the structure (but not the behavior) of an OOP solution. It is probably the most commonly used UML diagram among OOP programmers.
+UML class diagrams describe the structure (but not the behaviour) of an OOP solution. It is probably the most commonly used UML diagram among OOP programmers.
 
 - Use a rectangle to represent a class, which will be divided into three parts vertically, used to write class name, attributes and methods, respectively;
 	- However, you can _omit_ the 2<sup>nd</sup> compartment for attributes and the 3<sup>rd</sup> compartment for methods.
@@ -176,6 +200,10 @@ The diagram below shows how to draw an association class in the class diagram:
 
 ![Class diagram for die and player](img/ClassDiagramEnumeration.png)
 
+### Conceptual class diagram
+
+
+
 ### Object diagram 
 
 ### Sequence diagram
@@ -193,3 +221,11 @@ The diagram below shows how to draw an association class in the class diagram:
 The diagram below shows how to draw a use case diagram:
 
 ![Use case diagram for a blog system](img/UseCaseDiagramBlogSystem.png)
+
+### Deployment diagram
+
+### Component diagram
+
+### Package diagram
+
+### Composite structure diagram
