@@ -294,8 +294,33 @@ A composite structure diagram hierarchically decomposes a class into its interna
 
 ![Composite structure diagram](img/CompositeStructureDiagram.png)
 
+### Timing diagram
+
+A timing diagram focus on timing constraints.
+
+![Timing diagram](img/TimingDiagram.png)
+
+### Interaction overview diagram
+
+An interaction overview diagram is a combination of activity diagrams and sequence diagrams.
+
+![Interaction overview diagram](img/InteractionOverviewDiagram.png)
+
+### Communication diagram
+
+A communication diagram are like sequence diagrams but emphasize the data links between the various participants in the interaction rather than the sequence of interactions.
+
+![Communication diagram](img/CommunicationDiagram.png)
+
+### State machine diagram
+
+A state machine diagram models state-dependent behavior.
+
+![State machine diagram](img/StateMachineDiagram.png)
+
 ### UML notes
 
-UML notes can augment UML diagrams with additional information.
+- UML notes can augment UML diagrams with additional information.
+- A constraint can be given inside a note, within curly braces.
 
 ![UML notes](img/DiagramNotes.png)
