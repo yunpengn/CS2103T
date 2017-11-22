@@ -153,7 +153,7 @@ The diagram below shows how to draw an association class in the class diagram:
 - Composition: use a solid diamond symbol to represent composition.
 - Aggregation: use a hollow diamond symbol to represent aggregation.
 
-![Class diagram for book](img/ClassDiagramComposition.png)
+![Class diagram for book](img/ClassDiagramComposition.png) &nbsp; &nbsp; &nbsp;
 ![Class diagram for club](img/ClassDiagramAggregation.png)
 
 - Enumeration: can be considered as a special kind of classes and should be explicitly labelled with `<<enumeration>>`.
