@@ -156,14 +156,21 @@ The diagram below shows how to draw an association class in the class diagram:
 ![Class diagram for book](img/ClassDiagramComposition.png) &nbsp; &nbsp; &nbsp;
 ![Class diagram for club](img/ClassDiagramAggregation.png)
 
-- Enumeration: can be considered as a special kind of classes and should be explicitly labelled with `<<enumeration>>`.
-
-![Class diagram for die and player](img/ClassDiagramEnumeration.png)
-
 - Class-level members: use underline to denote class-level attributes and methods.
 
 ![Class diagram for student](img/ClassDiagramClassLevel.png)
 
+- Inheritance: use a triangle and solid line (not to be confused with an arrow) to indicate class inheritance.
+
+![Class diagram for vehicle and pet](img/ClassDiagramInheritance.png)
+
+- Interface: use `<<interface>>` to show an interface, use a triangle and a dashed line to indicate implementation.
+
+![Class diagram for staff](img/ClassDiagramInterface.png)
+
+- Enumeration: can be considered as a special kind of classes and should be explicitly labelled with `<<enumeration>>`.
+
+![Class diagram for die and player](img/ClassDiagramEnumeration.png)
 
 ### Object diagram 
 
