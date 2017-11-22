@@ -190,6 +190,19 @@ Refactoring is a process that improves a program's internal structure in small s
 
 Given below are some common refactoring:
 
+- Consolidate duplicate conditional fragments (extract common part from `if` and `else` clause);
+- Extract method (group statements together);
+- Decompose conditional (use extracted method in condition that the `if-else` statement is too complicated);
+- Inline method (remove the method and put its body into the caller);
+- Remove double negative;
+- Replace magic number with symbolic constant;
+- Replace nested conditional with guard clauses (separate `if` clauses);
+- Replace controlling parameters with separate methods;
+- Split the loop (one loop should only do one thing);
+- Split temporary variables (one variable should only have one purpose).
+
+### Documentation
+
 - 
 
 ## UML diagram
