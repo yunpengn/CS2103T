@@ -210,7 +210,16 @@ Below is an example of conceptual class diagram for snake-and-ladder game:
 
 ![OODM for snake-and-ladder game](img/ConceptualClassDiagram.png)
 
-### Object diagram 
+### Object diagram
+
+- An object diagram shows an object structure at a given point of time.
+	- `objectName:ClassName` is meant to say _an instance of `ClassName` identified as `objectName`_.
+- Use a rectangle to represent an object, which will be divided into two parts vertically, used to write object name and attributes, respectively;
+	- However, you can _omit_ the 2<sup>nd</sup> compartment for attributes.
+
+Below is a simple example of the object diagram:
+
+![Object diagram](img/ObjectDiagram.png)
 
 ### Sequence diagram
 
