@@ -128,7 +128,7 @@ UML class diagrams describe the structure (but not the behavior) of an OOP solut
 
 The diagram below shows the two basic rules above:
 
-![Use case diagram for a blog system](img/ClassDiagramBasicVisibility.png)
+![Class diagram for the table class](img/ClassDiagramBasicVisibility.png)
 
 - Use a solid line for **association** between two classes;
 - Use the arrow head to indication the navigability of an association;
@@ -140,17 +140,30 @@ The diagram below shows the two basic rules above:
 
 The diagram below shows how to draw association in the class diagram:
 
-![Use case diagram for a blog system](img/ClassDiagramAssociation.png)
+![Class diagram for school](img/ClassDiagramAssociation.png)
 
 The diagram below shows how to draw association as an attribute in the class diagram:
 
-![Use case diagram for a blog system](img/ClassDiagramAssociationAttribute.png)
+![Class diagram for square piece](img/ClassDiagramAssociationAttribute.png)
+
+The diagram below shows how to draw an association class in the class diagram:
+
+![Class diagram for library](img/ClassDiagramAssociationClass.png)
+
+- Composition: use a solid diamond symbol to represent composition.
+- Aggregation: use a hollow diamond symbol to represent aggregation.
+
+![Class diagram for book](img/ClassDiagramComposition.png)
+![Class diagram for club](img/ClassDiagramAggregation.png)
 
 - Enumeration: can be considered as a special kind of classes and should be explicitly labelled with `<<enumeration>>`.
 
-The diagram below shows enumeration in use in the class diagram:
+![Class diagram for die and player](img/ClassDiagramEnumeration.png)
 
-![Use case diagram for a blog system](img/ClassDiagramEnumeration.png)
+- Class-level members: use underline to denote class-level attributes and methods.
+
+![Class diagram for student](img/ClassDiagramClassLevel.png)
+
 
 ### Object diagram 
 
