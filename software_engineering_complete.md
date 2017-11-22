@@ -293,3 +293,9 @@ A package diagram shows packages and their dependencies
 A composite structure diagram hierarchically decomposes a class into its internal structure.
 
 ![Composite structure diagram](img/CompositeStructureDiagram.png)
+
+### UML notes
+
+UML notes can augment UML diagrams with additional information.
+
+![UML notes](img/DiagramNotes.png)
