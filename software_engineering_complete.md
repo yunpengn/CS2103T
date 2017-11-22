@@ -138,9 +138,19 @@ The diagram below shows the two basic rules above:
 - Use numbers to indicate at both ends of the sold line to indicate the multiplicity of both parties in the association;
 	- `0..1` stands for `optional`, `1` stands for `compulsory`, `*` stands for `infinite`, `m..n` stands for the range `[m, n]` (both inclusive).
 
-The diagram below shows how to draw association in a class diagram:
+The diagram below shows how to draw association in the class diagram:
 
 ![Use case diagram for a blog system](img/ClassDiagramAssociation.png)
+
+The diagram below shows how to draw association as an attribute in the class diagram:
+
+![Use case diagram for a blog system](img/ClassDiagramAssociationAttribute.png)
+
+- Enumeration: can be considered as a special kind of classes and should be explicitly labelled with `<<enumeration>>`.
+
+The diagram below shows enumeration in use in the class diagram:
+
+![Use case diagram for a blog system](img/ClassDiagramEnumeration.png)
 
 ### Object diagram 
 
