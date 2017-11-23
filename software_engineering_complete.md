@@ -290,6 +290,11 @@ Given below are some common refactoring:
 	- System test cases are based on the specified external behavior of the system, which may include NFRs.
 	- Acceptance testing focus more on positive test cases, while system testing focus on both positive and negative test cases.
 - A mix of _scripted testing_ and _exploratory testing_ is better.
+- Any modification may result in some unintended and undesirable effects on the system. Thus, all changes to the codebase must be accompanied with regression testing.
+- **_Test coverage_** is a metric used to measure the extent to which testing exercises the code.
+	- Different types of coverage: function/method coverage, statement coverage, decision/branch coverage, condition coverage, path coverage, entry/exit coverage.
+- **_Dependency injection_** is the process of 'injecting' objects (such as _stub_) to replace current dependencies with a different object.
+	- Polymorphism can be used to implement dependency injection.
 
 ## UML diagram
 
