@@ -245,6 +245,20 @@ Given below are some common refactoring:
 - Continuous deployment (CD): the changes are not only integrated continuously, but also deployed to end-users at the same time.
 - Some popular CI/CD tools: Travis CI, Circle CI, AppVeyor, Jenkins.
 
+### Reuse
+
+- Application programming interface (API): specifies the interface through which other programs can interact with a software component.
+- Library: a collection of modular code that is general and can be used by other programs.
+	- Java classes inside the SDK (like `String`, `HashMap`) and external library (like `Natty`).
+- Framework: a reusable implementation of a software (or part thereof) providing generic functionality that can be selectively customized to produce a specific application.
+	- Eclipse - an IDE framework, JavaFX - a GUI framework, JUnit - a test framework, Drupal and Ruby on Rails - popular Web frameworks.
+	- Framework uses _inverse of control_, programmers write code to be called by the framework.
+- Platform: provides a runtime environment for applications
+	- Technically, an operating system can also be called a platform.
+	- JavaEE and .NET are two popular platforms used for enterprise systems.
+
+## Quality assurance
+
 ## UML diagram
 
 UML stands for unified modelling language. It is a general-purpose, developmental, modeling language in the field of software engineering, that is intended to provide a standard way to visualize the design of a system.
