@@ -316,7 +316,15 @@ Given below are some common refactoring:
 
 ### Project planning
 
+- A Work Breakdown Structure (WBS) depicts information about tasks and their details in terms of subtasks.
+- A milestone is the end of a stage which indicates a significant progress.
+- A buffer is a time set aside to absorb any unforeseen delays.
+- Issue trackers (sometimes called bug trackers) are commonly used to track task assignment and progress.
+- Different team structures: egoless team, chief programmer team, strict hierarchy team.
 
+### Software Development Life Cycle
+
+- 
 
 ## UML diagram
 
