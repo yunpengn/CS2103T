@@ -324,7 +324,9 @@ Given below are some common refactoring:
 
 ### Software Development Life Cycle
 
-- 
+- Sequential model: also called the waterfall model, model software development as a linear process.
+- Iterative model: also called the incremental model, advocate having several iterations of SDLC, either breadth-first, depth-first or a mix.
+- Agile model: extreme programming (XP), SCRUM (_sprints_), unified process, capability maturity model integration (CMMI).
 
 ## UML diagram
 
