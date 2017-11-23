@@ -307,6 +307,17 @@ Given below are some common refactoring:
 
 ## Project management
 
+### Revision control software
+
+- Revision control software (RCS) utomate the process of managing revisions of software artifacts.
+- Some terms for **_Git_**: ignore, commit, stage, history, tag, diff, checkout.
+- Some terms for remote repository: pull, push, fetch, clone, fork, pull request, upstream.
+- Some terms for branching: branch, merge, merge conflict, fast-forward.
+
+### Project planning
+
+
+
 ## UML diagram
 
 UML stands for unified modelling language. It is a general-purpose, developmental, modeling language in the field of software engineering, that is intended to provide a standard way to visualize the design of a system.
