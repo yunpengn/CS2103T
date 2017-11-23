@@ -527,3 +527,21 @@ A state machine diagram models state-dependent behavior.
 - A constraint can be given inside a note, within curly braces.
 
 ![UML notes](img/DiagramNotes.png)
+
+## Software engineering principle
+
+The five principles below are collectively known as **_SOLID_**:
+
+- Single responsibility principle (SRP): a class should have one, and only one, reason to change.
+- Open-closed principle (OCP): a module should be open for extension but closed for modification.
+- Liskov substitution principle (LSP): derived classes must be substitutable for their base classes.
+- Interface segregation principle (ISP): no client should be forced to depend on methods it does not use.
+- Dependency Inversion Principle: high-level modules should not depend on low-level modules. Both should depend on abstractions; abstractions should not depend on details. Details should depend on abstractions.
+
+Some other principles:
+
+- Separation of concerns principle (SoC): to achieve better modularity, separate the code into distinct sections, such that each section addresses a separate concern.
+- Law of Demeter (LoD): An object should have limited knowledge of another object and only interact with objects that are closely related to it.
+- Brooks' Law: Adding people to a late project will make it later.
+- YAGNI (You Aren't Gonna Need It!) principle: do not add code simply because '_you might need it in the future_'.
+- DRY (Don't repeat yourself) principle: every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
