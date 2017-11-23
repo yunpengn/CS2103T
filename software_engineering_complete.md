@@ -296,6 +296,17 @@ Given below are some common refactoring:
 - **_Dependency injection_** is the process of 'injecting' objects (such as _stub_) to replace current dependencies with a different object.
 	- Polymorphism can be used to implement dependency injection.
 
+#### Test case design
+
+- Test case design tries to make sure every test case is effective and efficient (_E&E_).
+- Two types of test cases: positive test case & negative test case.
+- Three testing approaches: black-box approach, white-box approach, gray-box approach.
+- Equivalence partition: a group of test inputs that are likely to be processed by the SUT in the same way.
+- Boundary Value Analysis (BVA) is test case design heuristic that is based on the observation that bugs often result from incorrect handling of boundaries of equivalence partitions.
+- Test input combination: **_each valid input at least once in a positive test case, no more than one invalid input in a test case_**.
+
+## Project management
+
 ## UML diagram
 
 UML stands for unified modelling language. It is a general-purpose, developmental, modeling language in the field of software engineering, that is intended to provide a standard way to visualize the design of a system.
