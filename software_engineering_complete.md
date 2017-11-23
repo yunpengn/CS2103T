@@ -259,6 +259,38 @@ Given below are some common refactoring:
 
 ## Quality assurance
 
+- Software Quality Assurance (QA) is the process of ensuring that the software being built has the required levels of quality.
+	- Quality Assurance = Validation + Verification
+- Validation: are we building the right system i.e., are the requirements correct?
+- Verification: are we building the system right i.e., are the requirements implemented correctly?
+
+### Code review
+
+- Code review is the systematic examination of code with the intention of finding where the code can be improved.
+- Popular forms of code review: pair programming, pull request review, formal inspection.
+
+### Static analysis
+
+- Static analysis is the analysis of code without actually executing the code.
+- Linters are a subset of static analyzers for code quality.
+- Some popular Java static analyzer: CheckStyle, PMD, FindBugs.
+
+### Formal verification
+
+- Formal verification can be used to prove the absence of errors, while all other forms of QA cannot.
+- Formal verification is more commonly used in safety-critical software such as flight control systems.
+
+### Testing
+
+- Testing is operating a system or component under specified conditions, observing or recording the results, and making an evaluation of some aspect of the system or component.
+- A test case failure is a mismatch between the expected behavior and the actual behavior. A failure is caused by a defect (or a bug).
+- Testability is an indication of how easy it is to test an SUT.
+- Different types of testing: unit testing, integration testing, system testing, acceptance testing (UAT).
+	- **_Stub_** is used in unit testing to isolate the unit under test from other components. A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs.
+	- System test cases are based on the specified external behavior of the system, which may include NFRs.
+	- Acceptance testing focus more on positive test cases, while system testing focus on both positive and negative test cases.
+- A mix of _scripted testing_ and _exploratory testing_ is better.
+
 ## UML diagram
 
 UML stands for unified modelling language. It is a general-purpose, developmental, modeling language in the field of software engineering, that is intended to provide a standard way to visualize the design of a system.
