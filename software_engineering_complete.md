@@ -395,7 +395,7 @@ The diagram below shows how to draw an association class in the class diagram:
 
 ![Class diagram for staff](img/ClassDiagramInterface.png)
 
-- Abstract class: use `{abstract}` to indicate a class is an abstract class.
+- Abstract class: use _italics_ or `{abstract}` to indicate a class is an abstract class.
 
 ![Class diagram for abstract staff](img/ClassDiagramAbstractStaff.png)
 
