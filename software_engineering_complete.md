@@ -407,7 +407,7 @@ The diagram below shows how to draw an association class in the class diagram:
 
 - Class diagrams that are used to model the problem domain are called conceptual class diagrams or OO domain models (OODMs).
 - OODMs do not contain solution-specific classes.
-- OODM notation is similar to class diagram notation but typically omit methods and navigability.
+- OODM notation is similar to class diagram notation but typically _omit methods and navigability_.
 
 Below is an example of conceptual class diagram for snake-and-ladder game:
 
