@@ -83,7 +83,7 @@ Apart from an overall design, sometimes **agile design** is also important but i
 
 ### Object-oriented programming
 
-- A programming paradigm guides programmers to analyze programming problems and structure programming solutions in a specific way. A few popular paradigm includes procedural programming (C), functional programming (JavaScript and Haskel) and object-oriented programming (Java);
+- A programming paradigm guides programmers to analyze programming problems and structure programming solutions in a specific way. A few popular paradigm includes procedural programming (_C_), functional programming (_JavaScript and Haskel_) and object-oriented programming (_Java_);
 - OOP views the world as a network of interacting objects. OOP solutions try to simulate such a network inside the computer's memory, although no need to follow the real world exactly;
 - Object ultimately achieves three goals:
 	- Encapsulation: to encapsulate both state (data) and behaviour (operations on data);
