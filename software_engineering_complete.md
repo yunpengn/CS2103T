@@ -309,7 +309,7 @@ Given below are some common refactoring:
 
 ### Revision control software
 
-- Revision control software (RCS) utomate the process of managing revisions of software artifacts.
+- Revision control software (RCS) automates the process of managing revisions of software artifacts.
 - Some terms for **_Git_**: ignore, commit, stage, history, tag, diff, checkout.
 - Some terms for remote repository: pull, push, fetch, clone, fork, pull request, upstream.
 - Some terms for branching: branch, merge, merge conflict, fast-forward.
