@@ -216,7 +216,7 @@ Given below are some common refactoring:
 	- Exception objects can propagate up the method call hierarchy until it is dealt with.
 	- Use `try-catch` block to seperate normal workflow and error handling workflow.
 - Assertion: used to define assumptions about the program state so that the runtime can verify them.
-	- An assertion failure usually indicates a potnetial bug in the code.
+	- An assertion failure usually indicates a potential bug in the code.
 	- Java disables assertion by default, you can use `java -enableassertions <ClassName>` to enable it.
 - Logging: the deliberate recording of certain information during a program execution for future reference, which would be useful for troubleshooting.
 	- A log file is like the black box of an airplane; they don't prevent problems but they can be helpful in understanding what went wrong after the fact.
