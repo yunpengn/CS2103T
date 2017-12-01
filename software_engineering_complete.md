@@ -159,7 +159,7 @@ Apart from an overall design, sometimes **agile design** is also important but i
 	- Use enumeration when the value of a variable can only take a fixed set of values;
 	- Structure code logically and put statements/methods in the suitable order;
 	- Never write _clever_ code, keep it simple and stupid (**KISS**);
-	- Adapt _single level of abstraction per method (**SLAP**);
+	- Adopt _single level of abstraction per method_ (**SLAP**);
 	- Avoid long method;
 	- Avoid deep nesting (in `if-else` statement or loop);
 	- Avoid complicated expression (lengthy boolean expression);
