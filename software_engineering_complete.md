@@ -75,7 +75,7 @@ Apart from an overall design, sometimes **agile design** is also important but i
 
 - Abstraction: _data abstraction_ ignores lower level data items and thinking in terms of bigger entities, while _control abstraction_ abstracts away details of the actual control flow to focus on tasks at a simplified level;
 - Coupling: a measure of the degree of dependence between components, classes, methods, etc. `X is coupled to Y` if a change to Y can potentially require a change in X. High coupling is discouraged since maintenance, integration and testing will be harder. Thus, we should **reduce coupling**, or so-called **de-couple**.
-- Cohesion: a measure of how strongly-related and focused the various responsibilities of a component are. Weak cohesion will lead to difficulty in understandability, maintainability and reusability of the module. Thus, we should **improve coheson**.
+- Cohesion: a measure of how strongly-related and focused the various responsibilities of a component are. Weak cohesion will lead to difficulty in understandability, maintainability and reusability of the module. Thus, we should **improve cohesion**.
 - **Open-closed Principle (OCP)**: _A module should be open for extension but closed for modification. That is, modules should be written so that they can be extended, without requiring them to be modified._
 - **Dependency Inversion Principle** states that
 	- High-level modules should not depend on low-level modules. Both should depend on abstractions;
