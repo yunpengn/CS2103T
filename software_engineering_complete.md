@@ -6,6 +6,8 @@ _Based on [textbook](https://nus-cs2103.github.io/website/book/common/print.html
 _Correct as AY2017/2018 Semester 1_<br>
 _School of Computing, National University of Singapore_
 
+##### _A PDF version of this document is available at [here](software_engineering_complete.pdf)._
+
 ## Introduction
 
 According to _IEEE Standard Glossary of Software Engineering Terminology_, software Engineering is the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software.
