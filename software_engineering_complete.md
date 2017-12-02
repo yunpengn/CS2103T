@@ -6,7 +6,7 @@ _Based on [textbook](https://nus-cs2103.github.io/website/book/common/print.html
 _Correct as AY2017/2018 Semester 1_<br>
 _School of Computing, National University of Singapore_
 
-##### _A PDF version of this document is available at [here](software_engineering_complete.pdf)._
+##### _An online version of this document is available at [here](https://yunpengn.github.io/CS2103T/software_engineering_complete.html)._
 
 ## Introduction
 
