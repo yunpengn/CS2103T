@@ -38,6 +38,7 @@ This module introduces the necessary conceptual and analytical tools for systema
 
 ### Materials summary
 - [Software Engineering Complete](software_engineering_complete.md)
+	- If you are using Unix-based system and have [Pandoc](https://pandoc.org/) installed, you can run `sh to_pdf.sh` to convert it to PDF format.
 
 ## Licence
 [GNU General Public Licence 3.0](LICENSE)
