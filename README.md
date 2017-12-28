@@ -4,7 +4,7 @@ _AY2017/2018 Semester 1_<br>
 _School of Computing_<br>
 _National University of Singapore_
 
-#### Taught by [Damith C. Rajapakse](www.comp.nus.edu.sg/~damithch/)
+#### Taught by [Damith C. Rajapakse](https://www.comp.nus.edu.sg/~damithch/)
 
 ## Description
 This module introduces the necessary conceptual and analytical tools for systematic and rigorous development of software systems. It covers four main areas of software development, namely object-oriented system analysis, object-oriented system modelling and design, implementation, and testing, with emphasis on system modelling and design and implementation of software modules that work cooperatively to fulfill the requirements of the system. Tools and techniques for software development, such as Unified Modelling Language (UML), program specification, and testing methods, will be taught. Major software engineering issues such as modularisation criteria, program correctness, and software quality will also be covered.
